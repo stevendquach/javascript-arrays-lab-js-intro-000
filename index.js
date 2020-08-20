@@ -22,7 +22,7 @@ function prependKitten(Jeff) {
   return y
 }
 function removeLastKitten(kitten) {
-  var a = kittens.slice(0, kitten.length -1)
+  var a = kittens.slice(0, -1)
   return a
 }
 // Add your functions and code here
