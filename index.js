@@ -7,5 +7,8 @@ function destructivelyAppendKitten(Ralph) {
 function destructivelyPrependKitten(Ralph){
   kittens.unshift(Ralph)
 }
+function destructivelyRemoveLastKitten(Garfield) {
+  kittens.pop(Garfield )
 
+}
 // Add your functions and code here
