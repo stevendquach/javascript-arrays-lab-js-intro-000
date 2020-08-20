@@ -15,6 +15,6 @@ function destructivelyRemoveFirstKitten(Milo){
 }
 function appendKitten (Broom) {
   var i = kittens.push(Broom)
-  return i;
+  return i
 }
 // Add your functions and code here
