@@ -17,7 +17,7 @@ function appendKitten (Broom) {
   var i = [...kittens, Broom]
   return i ;
 }
-function prepenndKitten(Jeff) {
+function prependKitten(Jeff) {
   var y = [Jeff, ...kittens]
   return y
 }
