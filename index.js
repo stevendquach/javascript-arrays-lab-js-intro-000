@@ -5,6 +5,6 @@ function destructivelyAppendKitten(Ralph) {
   return kittens;
 }
 function destructivelyAppendKitten(kitty){
-  kittens.unshit(kitty)
+  kittens.unshift(kitty)
 }
 // Add your functions and code here
