@@ -15,6 +15,10 @@ function destructivelyRemoveFirstKitten(Milo){
 }
 function appendKitten (Broom) {
   var i = [...kittens, Broom]
-  return i
+  return i ;
+}
+function prepenndKitten(Jeff) {
+  var y = [Jeff, ...kittens]
+  return y
 }
 // Add your functions and code here
