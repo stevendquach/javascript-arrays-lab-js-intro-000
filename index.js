@@ -10,10 +10,10 @@ function destructivelyPrependKitten(Ralph){
 function destructivelyRemoveLastKitten(Garfield) {
   kittens.pop(Garfield)
 }
-function destructivelyRemoveFirstKitten(Milo ){
+function destructivelyRemoveFirstKitten(Milo){
   kittens.shift(Milo)
 }
-function appendKitten (kittens, Broom) {
+function appendKitten (Broom) {
   var i = kittens.push(Broom)
   return i;
 }
