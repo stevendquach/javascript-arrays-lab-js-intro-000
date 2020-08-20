@@ -4,7 +4,7 @@ function destructivelyAppendKitten(Ralph) {
   kittens.push("Ralph")
   return kittens
 }
-function destructivelyAppendKitten(kitty){
-  kittens.unshift(kitty)
+function destructivelyAppendKitten(){
+  kittens.unshift()
 }
 // Add your functions and code here
