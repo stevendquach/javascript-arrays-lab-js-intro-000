@@ -13,8 +13,8 @@ function destructivelyRemoveLastKitten(Garfield) {
 function destructivelyRemoveFirstKitten(Milo){
   kittens.shift(Milo)
 }
-function appendKitten (kittens, Broom) {
-  var i = kittens.push(Broom)
+function appendKitten (Broom) {
+  var i = [...kittens, Broom]
   return i
 }
 // Add your functions and code here
